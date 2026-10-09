@@ -1,0 +1,221 @@
+{
+  "01_dbscan": {
+    "threshold": 0.7069,
+    "precision": 0.9411,
+    "recall": 0.8294,
+    "f1": 0.8817,
+    "pa_precision": 0.9506,
+    "pa_recall": 1.0,
+    "pa_f1": 0.9747,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.7966666666666666,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 0.97,
+      "A4_collective_hv_osc": 0.7466666666666667,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.816
+    }
+  },
+  "02_isolation_forest": {
+    "threshold": 0.5068,
+    "precision": 0.726,
+    "recall": 0.7273,
+    "f1": 0.7266,
+    "pa_precision": 0.7846,
+    "pa_recall": 1.0,
+    "pa_f1": 0.8793,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.75,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 0.855,
+      "A4_collective_hv_osc": 0.7133333333333334,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.664
+    }
+  },
+  "03_deep_embedding": {
+    "threshold": 1.6484,
+    "precision": 0.8789,
+    "recall": 0.7602,
+    "f1": 0.8152,
+    "pa_precision": 0.9049,
+    "pa_recall": 0.9974,
+    "pa_f1": 0.9489,
+    "per_fault": {
+      "A1_point_spike_temp": 0.0,
+      "A2_cascade": 0.82,
+      "A1_point_dip_temp": 0.0,
+      "A3_contextual_phase": 0.975,
+      "A4_collective_hv_osc": 0.006666666666666667,
+      "A1_point_spike_hv": 0.5,
+      "A5_pressure_drift": 0.87
+    }
+  },
+  "04_lstm_autoencoder": {
+    "threshold": 0.4136,
+    "precision": 0.8453,
+    "recall": 0.8043,
+    "f1": 0.8243,
+    "pa_precision": 0.8717,
+    "pa_recall": 1.0,
+    "pa_f1": 0.9315,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.7233333333333334,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 0.99,
+      "A4_collective_hv_osc": 0.9533333333333334,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.732
+    }
+  },
+  "06_usad": {
+    "threshold": 641.8896,
+    "precision": 0.7929,
+    "recall": 0.6,
+    "f1": 0.6831,
+    "pa_precision": 0.8642,
+    "pa_recall": 0.9974,
+    "pa_f1": 0.926,
+    "per_fault": {
+      "A1_point_spike_temp": 0.0,
+      "A2_cascade": 0.39666666666666667,
+      "A1_point_dip_temp": 0.0,
+      "A3_contextual_phase": 0.655,
+      "A4_collective_hv_osc": 0.12,
+      "A1_point_spike_hv": 0.5,
+      "A5_pressure_drift": 0.848
+    }
+  },
+  "07_omnianomaly": {
+    "threshold": 2.6857,
+    "precision": 0.9675,
+    "recall": 0.8242,
+    "f1": 0.8901,
+    "pa_precision": 0.973,
+    "pa_recall": 1.0,
+    "pa_f1": 0.9863,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.6933333333333334,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 1.0,
+      "A4_collective_hv_osc": 0.94,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.796
+    }
+  },
+  "08_transformer": {
+    "threshold": 0.0064,
+    "precision": 0.8274,
+    "recall": 0.8424,
+    "f1": 0.8348,
+    "pa_precision": 0.8505,
+    "pa_recall": 1.0,
+    "pa_f1": 0.9192,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.8333333333333334,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 1.0,
+      "A4_collective_hv_osc": 0.9866666666666667,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.74
+    }
+  },
+  "09_vae": {
+    "threshold": 0.3715,
+    "precision": 0.8025,
+    "recall": 0.7108,
+    "f1": 0.7539,
+    "pa_precision": 0.8511,
+    "pa_recall": 1.0,
+    "pa_f1": 0.9196,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.6966666666666667,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 0.995,
+      "A4_collective_hv_osc": 0.96,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.528
+    }
+  },
+  "10_gan": {
+    "threshold": 0.6047,
+    "precision": 0.5892,
+    "recall": 0.6121,
+    "f1": 0.6004,
+    "pa_precision": 0.7007,
+    "pa_recall": 0.9991,
+    "pa_f1": 0.8237,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.6,
+      "A1_point_dip_temp": 0.0,
+      "A3_contextual_phase": 0.83,
+      "A4_collective_hv_osc": 0.9,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.444
+    }
+  },
+  "11_pot_adaptive_threshold": {
+    "threshold": 1.1765,
+    "precision": 0.9974,
+    "recall": 0.6684,
+    "f1": 0.8004,
+    "pa_precision": 0.9983,
+    "pa_recall": 1.0,
+    "pa_f1": 0.9991,
+    "gpd_xi": 0.1822,
+    "gpd_sigma": 0.11,
+    "initial_zq": 1.1558,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.7166666666666667,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 0.675,
+      "A4_collective_hv_osc": 0.5466666666666666,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.67
+    }
+  },
+  "12_rl_threshold_exploration": {
+    "threshold": 0.7962,
+    "precision": 0.7199,
+    "recall": 0.7498,
+    "f1": 0.7345,
+    "pa_precision": 0.7741,
+    "pa_recall": 1.0,
+    "pa_f1": 0.8727,
+    "per_fault": {
+      "A1_point_spike_temp": 1.0,
+      "A2_cascade": 0.5433333333333333,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 0.91,
+      "A4_collective_hv_osc": 0.72,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.816
+    }
+  },
+  "05_dagmm": {
+    "threshold": -0.4476,
+    "precision": 0.7874,
+    "recall": 0.7792,
+    "f1": 0.7833,
+    "pa_precision": 0.8259,
+    "pa_recall": 0.9983,
+    "pa_f1": 0.904,
+    "per_fault": {
+      "A1_point_spike_temp": 0.0,
+      "A2_cascade": 0.8166666666666667,
+      "A1_point_dip_temp": 1.0,
+      "A3_contextual_phase": 0.955,
+      "A4_collective_hv_osc": 0.7333333333333333,
+      "A1_point_spike_hv": 1.0,
+      "A5_pressure_drift": 0.702
+    }
+  }
+}

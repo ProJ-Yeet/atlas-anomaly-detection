@@ -1,0 +1,13 @@
+# Only track the two code projects
+/*
+!/.gitignore
+!/README.md
+!/anomaly-detection-lab/
+!/atlas_anomaly_detection/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
